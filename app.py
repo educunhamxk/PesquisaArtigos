@@ -9,6 +9,7 @@ from wordcloud import WordCloud
 import networkx as nx
 from collections import Counter
 from datetime import datetime
+nltk.download('stopwords')
 
 imagem_local = "imagem.png"#exibição da imagem
 st.image(imagem_local)#
