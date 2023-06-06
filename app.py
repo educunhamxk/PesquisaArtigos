@@ -1,6 +1,7 @@
 import requests
 import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
+import nltk
 from nltk.corpus import stopwords
 import matplotlib.pyplot as plt
 import seaborn as sns
